@@ -1,15 +1,11 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* доп классы */
+/* ! доп классы */
 .no-margin {
   margin: 0;
 }
@@ -29,13 +25,12 @@
   color: #2f80ed;
   text-decoration: none;
 }
-/* Блок header*/
+/* ! Блок header*/
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color:  #f2f2f2;
-  /* выше установили ограничения для секции */
   position: relative;
   display: flex;
 }
@@ -85,7 +80,7 @@
   bottom: 0;
   right: 0;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -96,9 +91,9 @@
   right: 0;
 }
 
-/* block main */
+/* ! block main */
 
-/* section description */
+/* ! section description */
 .description {
   width: 80%;
   margin: 0 auto;
@@ -134,7 +129,7 @@
   font-weight: 600;
 }
 
-/* block digits*/
+/* ! block digits*/
 
 .section-title {
   width: 60%;
@@ -162,11 +157,13 @@
   justify-content: space-between;
   align-content: space-between;
   margin: 0 auto;
+  padding: 0;
 }
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  list-style: none;
 }
 
 .table__heading {
@@ -182,7 +179,7 @@
   font-weight: normal;
 }
 
-/* block feynman */
+/* ! block feynman */
 .feynman {
   height: 890px;
   background-color: #f2f2f2;
@@ -226,7 +223,7 @@
   content: ' \2192';
 }
 
-/* block kaufman*/
+/* ! block kaufman*/
 .kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
@@ -240,7 +237,7 @@
 .section-subtitle_theme_dark {
   color: white;
 }
-/* и элемента с модификатором вида ключ-значение */
+/* * и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -257,7 +254,7 @@
   height: 877px;
 }
 
-/* block footer */
+/* ! block footer */
 .footer {
   background-color: #1f1f1f;
   color: white;
@@ -306,15 +303,15 @@
   font-weight: normal;
 }
 
-.footer__link_facebook::before {
+.footer__column-link_facebook::before {
   content: url(../images/facebook_color_white.svg);
   margin-right: 10px;
 }
-.footer__link_vk::before {
+.footer__column-link_vk::before {
   content: url(../images/vk_color_white.svg);
   margin-right: 10px;
 }
-.footer__link_instagram::before {
+.footer__column-link_instagram::before {
   content: url(../images/instagram_color_white.svg);
   margin-right: 10px;
 }
@@ -328,7 +325,7 @@
   font-weight: normal;
 }
 
-.footer__link {
+.footer__column-link {
   position: relative;
   text-decoration: none;
   color: white;
