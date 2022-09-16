@@ -223,7 +223,7 @@
 }
 
 .feynman__link::after {
-  content: " \2192";
+  content: ' \2192';
 }
 
 .feynman__link:hover {
