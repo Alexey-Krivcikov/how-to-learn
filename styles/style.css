@@ -230,7 +230,7 @@
   opacity: 0.5;
 }
 
-/* ! block kaufman*/
+/* ! block kaufman */
 .kaufman {
   padding: 90px 0;
   background-color: #1f1f1f;
@@ -284,6 +284,7 @@
   display: flex;
   min-height: 250px;
 }
+
 .footer__column_content_copyright {
   flex-direction: column;
   justify-content: space-between;
@@ -302,6 +303,7 @@
   width: 228px;
   height: 32px;
 }
+
 .footer__author {
   margin: 18px 0;
   line-height: 25px;
@@ -315,6 +317,7 @@
   font-size: 18px;
   font-weight: 600;
 }
+
 .footer__column-links {
   list-style: none;
   padding: 0;
@@ -323,6 +326,7 @@
   font-size: 18px;
   font-weight: normal;
 }
+
 .footer__column-link {
   text-decoration: none;
   color: white;
@@ -340,7 +344,6 @@
   font-size: 18px;
   font-weight: normal;
 }
-
 
 .footer__column-link_type_facebook::before {
   content: url(../images/facebook_color_white.svg);
