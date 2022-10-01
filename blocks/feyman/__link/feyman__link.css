@@ -2,7 +2,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  color: #2f80ed;
+  color: var(--link-color);
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;

@@ -1,0 +1,37 @@
+.resources__link {
+  width: 270px;
+  height: 38px;
+}
+
+.resources__link:nth-child(1) {
+  background-image: url(../../../images/logo/resources-arzamas.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.resources__link:nth-child(2) {
+  background-image: url(../../../images/logo/resources-n1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.resources__link:nth-child(3) {
+  background-image: url(../../../images/logo/resources-strelka.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.resources__link:nth-child(4) {
+  background-image: url(../../../images/logo/resources-polka.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.resources__link:hover {
+  opacity: 0.4;
+  transition-duration: 2s;
+}
