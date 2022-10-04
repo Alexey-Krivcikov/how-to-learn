@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Контакты</title>
+    <link rel="stylesheet" href="./pages/contacts.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header-contacts">
+        <img
+          src="./images/logo_place_header.svg"
+          alt="логотип Яндекс.Практикум"
+          class="logo"
+        >
+        <nav class="menu">
+          <a href="./index.html" class="menu__link">Главная</a>
+        </nav>
+      </header>
+      <main class="content">
+        <h1 class="main-title">Напишите нам:</h1>
+        <form class="contact-form" action="#" method="post">
+          <label for="name" class="contact-form__label">Имя:</label>
+          <input type="text" id="name" class="contact-form__input" />
+          <label for="email" class="contact-form__label">E-mail:</label>
+          <input type="email" id="email" class="contact-form__input" />
+          <label for="message" class="contact-form__label">Сообщение:</label>
+          <textarea id="message" class="contact-form__textarea"></textarea>
+          <input type="submit" value="Отправить" class="contact-form__button" />
+        </form>
+      </main>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column footer__column_content_copyright">
+            <img
+              class="logo logo_place_footer"
+              src="./images/logo_place_footer.svg"
+              alt="логотип Яндекс.Практикум"
+            >
+            <p class="footer__author">&copy; Алексей Кривчиков</p>
+          </div>
+          <div class="footer__column footer__column_content_info">
+            <h4 class="footer__column-heading">О Практикуме</h4>
+            <nav>
+              <ul class="footer__column-links">
+                <li>
+                  <a
+                    class="footer__column-link"
+                    href="https://practicum.yandex.ru/"
+                    target="_blank"
+                    >Главная</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h4 class="footer__column-heading">Соцсети</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#" target="_blank"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/facebook_color_white.svg"
+                    alt="Facebook"
+                    lang="en"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__column-link"
+                  href="https://vk.com/id359515641"
+                  target="_blank"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/vk_color_white.svg"
+                    alt="Вконтакте"
+                  >Вконтакте</a
+                >
+              </li>
+              <li>
+                <a class="footer__column-link" href="#" target="_blank"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/instagram_color_white.svg"
+                    alt="Instagram"
+                    lang="en"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

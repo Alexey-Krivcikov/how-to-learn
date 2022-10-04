@@ -1,0 +1,14 @@
+.menu__link {
+  margin-right: 15px;
+  text-decoration: none;
+  color: --link-color;
+}
+
+.menu__link:last-child {
+  margin-right: 0;
+}
+
+.menu__link:hover {
+  opacity: 0.4;
+  transition-duration: 2s;
+}
