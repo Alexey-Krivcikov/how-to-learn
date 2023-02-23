@@ -1,5 +1,5 @@
 <h1 align="center">Научиться учиться</h1>
-
+<h2>Ссылка на демо: <a href="https://alexey-krivcikov.github.io/how-to-learn/">https://alexey-krivcikov.github.io/how-to-learn/</a></h4>
 <p>
 Проект предназначен для предоставления пользователю современных методов обучения которые он сможет использовать в своей жизни.
 
@@ -14,4 +14,4 @@
 <h3>Планы</h3>
 <p>Сделать адаптивную версию для мобильных устройств</p>
 
-<h4><a href="https://alexey-krivcikov.github.io/how-to-learn/">https://alexey-krivcikov.github.io/how-to-learn/</a></h4>
+
